@@ -42,9 +42,9 @@
 
         var layer = new google.maps.FusionTablesLayer({
           query: {
-            select: 'col7',
+            select: 'latitude',
             from: '1Jtge0kzZ9oHu-oKSAjkOssl1pPv8IF75AwFM1W0',
-            where: ' > 5000'
+            where: 'suco.village > 5000'
           }
         });
         layer.setMap(map);
